@@ -13,6 +13,8 @@
 		632E9C982770D29C00166A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632E9C962770D29C00166A19 /* Main.storyboard */; };
 		632E9C9A2770D29D00166A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632E9C992770D29D00166A19 /* Assets.xcassets */; };
 		632E9C9D2770D29D00166A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632E9C9B2770D29D00166A19 /* LaunchScreen.storyboard */; };
+		632E9CA52774E4FB00166A19 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 632E9CA42774E4FB00166A19 /* alarm_sound.mp3 */; };
+		632E9CA72774E6B700166A19 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 632E9CA62774E6B700166A19 /* G.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		632E9C992770D29D00166A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		632E9C9C2770D29D00166A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		632E9C9E2770D29D00166A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632E9CA42774E4FB00166A19 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../EggTimer-iOS13/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
+		632E9CA62774E6B700166A19 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				632E9C992770D29D00166A19 /* Assets.xcassets */,
 				632E9C9B2770D29D00166A19 /* LaunchScreen.storyboard */,
 				632E9C9E2770D29D00166A19 /* Info.plist */,
+				632E9CA42774E4FB00166A19 /* alarm_sound.mp3 */,
+				632E9CA62774E6B700166A19 /* G.wav */,
 			);
 			path = YAITCA;
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				632E9C9D2770D29D00166A19 /* LaunchScreen.storyboard in Resources */,
+				632E9CA72774E6B700166A19 /* G.wav in Resources */,
 				632E9C9A2770D29D00166A19 /* Assets.xcassets in Resources */,
+				632E9CA52774E4FB00166A19 /* alarm_sound.mp3 in Resources */,
 				632E9C982770D29C00166A19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
